@@ -2,10 +2,11 @@
 CodeLume is a feature-rich utility toolkit currently in active development for macOS systems. We warmly welcome users to download and experience it during our beta phase. 
 
 码镜是一个功能丰富的实用工具包，目前正在为 macOS 系统进行积极开发。我们热烈欢迎用户在测试阶段下载体验。
+![alt text](<images/CodeLume.png>)
 
 ## 兼容性说明
 
-现阶段，CodeLume 使用最新的 MacOS 系统和最新的 XCode 软件进行开发和测试，暂未考虑旧版本的兼容性，可能存在无法使用的情况，如果想体验 CodeLume，请自行升级系统版本，带来不便，还请谅解。
+CodeLume 最低版本为MacOS 14.0 系统，暂未考虑旧版本的兼容性，可能存在无法使用的情况，如果想体验 CodeLume，请自行升级系统版本，带来不便，还请谅解。
 
 ## 安全性说明
 
