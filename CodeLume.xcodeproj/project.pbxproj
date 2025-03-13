@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		22C4F2452D82C5E300302CCF /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 22C4F2442D82C5E300302CCF /* SwiftyBeaver */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		22C4F1F32D82BCFC00302CCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,22 @@
 		22C4F1FC2D82BCFC00302CCF /* CodeLumeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeLumeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		22C4F2422D82C5D000302CCF /* Exceptions for "CodeLume" folder in "CodeLume" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 22C4F1E02D82BCF900302CCF /* CodeLume */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		22C4F1E32D82BCF900302CCF /* CodeLume */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				22C4F2422D82C5D000302CCF /* Exceptions for "CodeLume" folder in "CodeLume" target */,
+			);
 			path = CodeLume;
 			sourceTree = "<group>";
 		};
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C4F2452D82C5E300302CCF /* SwiftyBeaver in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,7 @@
 				22C4F1E32D82BCF900302CCF /* CodeLume */,
 				22C4F1F52D82BCFC00302CCF /* CodeLumeTests */,
 				22C4F1FF2D82BCFC00302CCF /* CodeLumeUITests */,
+				22C4F2432D82C5E300302CCF /* Frameworks */,
 				22C4F1E22D82BCF900302CCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +109,13 @@
 				22C4F1FC2D82BCFC00302CCF /* CodeLumeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		22C4F2432D82C5E300302CCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +138,7 @@
 			);
 			name = CodeLume;
 			packageProductDependencies = (
+				22C4F2442D82C5E300302CCF /* SwiftyBeaver */,
 			);
 			productName = CodeLume;
 			productReference = 22C4F1E12D82BCF900302CCF /* CodeLume.app */;
@@ -399,6 +426,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodeLume/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -438,6 +466,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodeLume/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -605,6 +634,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		22C4F2442D82C5E300302CCF /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22C4F23A2D82C18F00302CCF /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 22C4F1D92D82BCF900302CCF /* Project object */;
 }

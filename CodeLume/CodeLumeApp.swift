@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct CodeLumeApp: App {
+    init() {
+        // 初始化日志
+        _ = Logger.shared
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()
