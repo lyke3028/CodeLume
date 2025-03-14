@@ -12,6 +12,27 @@
         }
       }
     },
+    "CodeLume" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "码镜"
+          }
+        }
+      }
+    },
+    "Conditions for pausing playback" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂停播放条件"
+          }
+        }
+      }
+    },
     "Dark" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -89,23 +110,95 @@
         }
       }
     },
+    "mute" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "静音"
+          }
+        }
+      }
+    },
+    "Pause" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂停"
+          }
+        }
+      }
+    },
     "Pause the playback when in battery-powered mode" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当处于电池供电模式时暂停播放"
+          }
+        }
+      }
     },
     "Pause the playback when in power-saving mode" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当处于省电模式时暂停播放"
+          }
+        }
+      }
     },
     "Pause the playback when the app is in full-screen mode" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运行全屏应用时暂停播放"
+          }
+        }
+      }
     },
     "Pause the playback when there are other apps on the desktop" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "桌面有其他应用时暂停播放"
+          }
+        }
+      }
+    },
+    "Playback operations" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "播放操作"
+          }
+        }
+      }
     },
     "Playback Settings" : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "播放设置"
+          }
+        }
+      }
     },
     "Please restart the app to apply the new language settings." : {
-
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请重启应用程序以应用新的语言设置"
+          }
+        }
+      }
     },
     "Restart Now" : {
       "localizations" : {
@@ -143,6 +236,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "主题设置"
+          }
+        }
+      }
+    },
+    "Volume" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "音量"
           }
         }
       }

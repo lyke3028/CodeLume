@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  CodeLume
+
+  Created by Lyke on 2025/3/14.
+  
+*/
+CFBundleDisplayName = "码镜";
+CFBundleName = "码镜";
